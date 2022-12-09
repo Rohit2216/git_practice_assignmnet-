@@ -1,6 +1,6 @@
 
 
-
+var num=13;
 var primeNumber=false;
     for(var i=2; i<num;i++){
         if(num%i==0){
@@ -8,7 +8,7 @@ var primeNumber=false;
         }
     }
     if(primeNumber==true){
-        console.log("Yes")
-    }else{
         console.log("No")
+    }else{
+        console.log("Yes")
     }
